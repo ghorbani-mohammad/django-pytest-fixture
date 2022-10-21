@@ -1,7 +1,8 @@
+import pytest
 from typing import List, Optional
 
-import pytest
 from django.contrib.auth.models import User, Group, Permission
+
 
 @pytest.fixture
 def app_user_group(db) -> Group:
